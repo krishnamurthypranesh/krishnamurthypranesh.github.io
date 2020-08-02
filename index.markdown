@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hajimashite!
+title: Hajimemashite!
 ---
 
 ### Me in 10 seconds
