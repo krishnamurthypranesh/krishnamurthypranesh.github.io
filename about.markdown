@@ -12,4 +12,4 @@ There's not a lot of things to say I guess. Check the <a href='/now/'>now page</
 
 ### Contact me
 
-[thesquirrel@sinistersquirrel.com](mailto:thesquirrel@sinistersquirrel)
+[admin@sinistersquirrel.com](mailto:thesquirrel@sinistersquirrel)
