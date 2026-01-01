@@ -21,10 +21,8 @@ I've got an obsession with tracking numbers. I attribute this to one line from H
 
 But, I'm also lazy and don't want to spend hours every week inputting data into excel sheets/forms. Simply put: I want all the cool charts without putting in any of the work.
 
-<insert pic of excel sheet I used to have>
 
 About 6 months ago, I noticed that I generally write a program and stick to it. I occasionally do deviate from it. But 90% of the time, I do what's on the plan. And, I take copious amounts of notes: about how I'm feeling or about how the 5th rep of the 8th set felt off, etc.
-
 
 # The Solution
 The idea is simple: If I already know what I'm doing and I capture subtle information about these things in my notes that anyone who reads can extract, why can't I use LLMs to automate the entire pipeline?
