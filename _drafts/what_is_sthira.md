@@ -3,17 +3,15 @@ layout: post
 title: What I'm building to track my training
 
 excerpt_separator: <---!>
-permalink: /tracking-my-training
+permalink: /posts/tracking-my-training/
 ---
 
 # Tl:dr
-<---!>
 Sthira (what I'm calling it right now) is a side-project I'm building to track my training.
 
 Its a traditional workout log with 2 key differences:
 1. Its digital
 2. It writes itself (almost)
-<---!>
 
 I do have other features in mind: Basically correlating nutrition and mental health information to predict training performance. But, that's a long way off.
 
@@ -23,7 +21,6 @@ I've got an obsession with tracking numbers. I attribute this to one line from H
 
 But, I'm also lazy and don't want to spend hours every week inputting data into excel sheets/forms. Simply put: I want all the cool charts without putting in any of the work.
 
-<insert pic of excel sheet I used to have>
 
 About 6 months ago, I noticed that I generally write a program and stick to it. I occasionally do deviate from it. But 90% of the time, I do what's on the plan. And, I take copious amounts of notes: about how I'm feeling or about how the 5th rep of the 8th set felt off, etc.
 
@@ -35,6 +32,7 @@ So, the entire idea is simple:
 - Extract structure from it
 - And, then there's data to run analyses upon
 
+
 # What about existing solutions?
 Whoop, Garmin and other existing solutions are great. But, they:
 - Cost a fortune
@@ -43,6 +41,7 @@ Whoop, Garmin and other existing solutions are great. But, they:
 
 
 I believe that what I "feel" (yes emotions and the things that go on in my head) during training is just as important as the numbers from their gadgets.
+
 
 # The Stack
 I went with a pretty stable, battle tested stack:
@@ -55,10 +54,12 @@ I'm using firebase for authentication. The reason I chose this stack is because 
 
 I chose inertia.js for the frontend because it was easy. I didn't want spend time setting up a full frontend stack. I just went with what got me started very quickly.
 
+
 # What I've built so far
 Right now, all of this code is deployed on a single VPS (I'm the only user right now)
 
 So, far I've gotten the structured data extraction from unstructured data in place => numbers and charts from notes that I take when I'm training.
+
 
 ## Next is What?
 I'm planning on adding more automation:
