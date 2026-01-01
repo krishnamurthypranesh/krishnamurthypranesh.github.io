@@ -27,6 +27,7 @@ But, I'm also lazy and don't want to spend hours every week inputting data into 
 
 About 6 months ago, I noticed that I generally write a program and stick to it. I occasionally do deviate from it. But 90% of the time, I do what's on the plan. And, I take copious amounts of notes: about how I'm feeling or about how the 5th rep of the 8th set felt off, etc.
 
+
 # The Solution
 The idea is simple: If I already know what I'm doing and I capture subtle information about these things in my notes that anyone who reads can extract, why can't I use LLMs to automate the entire pipeline?
 
@@ -34,6 +35,7 @@ So, the entire idea is simple:
 - Get the entire plan as natural language
 - Extract structure from it
 - And, then there's data to run analyses upon
+
 
 # What about existing solutions?
 Whoop, Garmin and other existing solutions are great. But, they:
@@ -43,6 +45,7 @@ Whoop, Garmin and other existing solutions are great. But, they:
 
 
 I believe that what I "feel" (yes emotions and the things that go on in my head) during training is just as important as the numbers from their gadgets.
+
 
 # The Stack
 I went with a pretty stable, battle tested stack:
@@ -55,10 +58,12 @@ I'm using firebase for authentication. The reason I chose this stack is because 
 
 I chose inertia.js for the frontend because it was easy. I didn't want spend time setting up a full frontend stack. I just went with what got me started very quickly.
 
+
 # What I've built so far
 Right now, all of this code is deployed on a single VPS (I'm the only user right now)
 
 So, far I've gotten the structured data extraction from unstructured data in place => numbers and charts from notes that I take when I'm training.
+
 
 ## Next is What?
 I'm planning on adding more automation:
