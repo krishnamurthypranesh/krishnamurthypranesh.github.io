@@ -3,17 +3,15 @@ layout: post
 title: What I'm building to track my training
 
 excerpt_separator: <---!>
-permalink: /tracking-my-training
+permalink: /posts/tracking-my-training/
 ---
 
 # Tl:dr
-<---!>
 Sthira (what I'm calling it right now) is a side-project I'm building to track my training.
 
 Its a traditional workout log with 2 key differences:
 1. Its digital
 2. It writes itself (almost)
-<---!>
 
 I do have other features in mind: Basically correlating nutrition and mental health information to predict training performance. But, that's a long way off.
 
