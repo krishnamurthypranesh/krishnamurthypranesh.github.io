@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    container_name: jekyll_blog
+    volumes:
+      - .:/site
+      - bundle_cache:/usr/local/bundle
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # LiveReload port
+    environment:
+      - JEKYLL_ENV=development
+    command: >
+      bash -c "bundle install && 
+               bundle exec jekyll serve --trace --host 0.0.0.0 --livereload --force_polling"
+
+volumes:
+  bundle_cache:
